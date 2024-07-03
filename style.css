@@ -71,3 +71,7 @@ a{
     background-image: url('plant.jpg');
     background-size: cover;
 }
+
+#create {
+    color: #596D48;
+}
