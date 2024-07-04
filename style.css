@@ -75,3 +75,11 @@ a{
 #create {
     color: #596D48;
 }
+
+input:invalid{
+    border-color: red;
+}
+s
+input:valid{
+    border-color: green;
+}
