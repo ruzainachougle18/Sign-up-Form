@@ -76,7 +76,6 @@ a{
     height: 100vh;
     background-image: url('plant.jpg');
     background-size: cover;
-    
 }
 
 #create {
@@ -91,6 +90,11 @@ input:valid{
     border-color: green;
 }
 
-.footer{
-    background-color: white;
+.img-credit{
+    color: white;
+    margin-top: 160%;
+    padding-left: 30%;
+}
+.img-credit-.a{
+    color: white;
 }
