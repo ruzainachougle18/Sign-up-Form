@@ -86,7 +86,11 @@ a{
 input:invalid{
     border-color: red;
 }
-s
+
 input:valid{
     border-color: green;
+}
+
+footer{
+    background-color: white;
 }
