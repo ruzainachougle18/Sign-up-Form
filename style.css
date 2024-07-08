@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Norse Bold';
+    src: url('Norse-Bold.otf') format('opentype');
+  }
+
 * {
     padding: 0;
     margin: 0;
@@ -74,7 +79,7 @@ a{
 .image-container{
     width: 60vw;
     height: 100vh;
-    background-image: url('plant.jpg');
+    background-image: url('img/plant.jpg');
     background-size: cover;
 }
 
@@ -95,7 +100,7 @@ input:invalid{
 input:valid{
     border-color: green;
 }
-
+/*
 .img-credit{
     color: white;
     margin-top: 160%;
@@ -103,8 +108,44 @@ input:valid{
 }
 .img-credit-.a{
     color: white;
-}
+}*/
+
+.img-credit {
+    position: absolute;
+    bottom: 12px;
+    left: 32%;
+  }
+  
+  .img-credit,
+  .img-credit a {
+    font-size: 14px;
+  
+    color: #d7d7d7d0;
+  }
 
 .login{
     padding-left: 40px;
 }
+
+.logo {
+    font-family: 'Norse Bold';
+    font-size: 100px;
+  
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+  
+    position: absolute;
+    top: 22%;
+  
+    width: 100%;
+    padding: 12px 0;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo-img {
+    width: 110px;
+    height: auto;
+  }
