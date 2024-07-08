@@ -78,8 +78,14 @@ a{
     background-size: cover;
 }
 
-#create {
+
+#submit {
     color: #596D48;
+}
+
+.create-account-btn{
+    margin-left: 40px;
+
 }
 
 input:invalid{
@@ -97,4 +103,8 @@ input:valid{
 }
 .img-credit-.a{
     color: white;
+}
+
+.login{
+    padding-left: 40px;
 }
