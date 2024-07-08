@@ -100,15 +100,6 @@ input:invalid{
 input:valid{
     border-color: green;
 }
-/*
-.img-credit{
-    color: white;
-    margin-top: 160%;
-    padding-left: 30%;
-}
-.img-credit-.a{
-    color: white;
-}*/
 
 .img-credit {
     position: absolute;
@@ -116,10 +107,8 @@ input:valid{
     left: 32%;
   }
   
-  .img-credit,
-  .img-credit a {
+  .img-credit, .img-credit a {
     font-size: 14px;
-  
     color: #d7d7d7d0;
   }
 
