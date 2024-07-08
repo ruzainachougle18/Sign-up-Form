@@ -1,10 +1,9 @@
 # Sign-up-Form
-Full-stack JavaScript Course:
-
+## Full-stack JavaScript Course:
 * Exercise as part of the Odin Project
 * Full-stack JavaScript path to build a sign-up form
 
-Skills learned:
+## Skills learned:
 * HTML forms and input fields
 * CSS styling and layout techniques
 * Form validation using HTML and CSS
