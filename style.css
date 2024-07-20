@@ -88,13 +88,14 @@ input{
     box-shadow: 3px 3px 8px lightgray;
 }
 
-.form-col input:invalid{
-    border: 1px solid red;;
+input:required:valid{
+    border-color: green;
 }
 
-.form-col input:valid {
-    border: 1px solid green;
+input:invalid {
+    border-color: red;
 }
+
 
 .form-col input{
     font-size: 16px;
